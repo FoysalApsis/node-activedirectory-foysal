@@ -1,5 +1,5 @@
 {
-  "_from": "ldap-filter@^0.3.3",
+  "_from": "foysal-ldap-filter@^0.0.2",
   "_inBundle": false,
   "_integrity": "sha1-KxTGiiqdQQTb28kQocqF/Riel5c=",
   "_location": "/ldap-filter",
@@ -7,27 +7,26 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "ldap-filter@^0.3.3",
-    "name": "ldap-filter",
-    "escapedName": "ldap-filter",
-    "rawSpec": "^0.3.3",
+    "raw": "foysal-ldap-filter@^0.0.2",
+    "name": "foysal-ldap-filter",
+    "escapedName": "foysal-ldap-filter",
+    "rawSpec": "^0.0.2",
     "saveSpec": null,
-    "fetchSpec": "^0.3.3"
+    "fetchSpec": "^0.0.2"
   },
   "_requiredBy": [
     "/ldapjs"
   ],
-  "_resolved": "https://registry.npmjs.org/ldap-filter/-/ldap-filter-0.3.3.tgz",
+  "_resolved": "https://registry.npmjs.org/foysal-ldap-filter/-/foysal-ldap-filter-0.0.2.tgz",
   "_shasum": "2b14c68a2a9d4104dbdbc910a1ca85fd189e9797",
-  "_spec": "ldap-filter@^0.3.3",
+  "_spec": "foysal-ldap-filter@^0.0.2",
   "_where": "D:\\Projects\\NPM\\nodeAdSp\\node_modules\\ldapjs",
-  "author": "Patrick Mooney",
+  "author": "Foysal Apsis",
   "bugs": {
-    "url": "https://github.com/pfmooney/node-ldap-filter/issues"
+    "url": "https://github.com/FoysalApsis/node-activedirectory-foysal/issues"
   },
   "contributors": [
-    "Mark Cavage <mcavage@gmail.com>",
-    "Cody Peter Mello <cody.mello@joyent.com>"
+    "Foysal Nibir <foysal.ahmed@apsissolutions.com>"
   ],
   "dependencies": {
     "assert-plus": "^1.0.0"
@@ -48,15 +47,15 @@
   "homepage": "http://ldapjs.org",
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "@foysalnibir/ldap-filter-foysal",
+  "name": "@foysalapsis/ldap-filter-foysal",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pfmooney/node-ldap-filter.git"
+    "url": "git+https://github.com/FoysalApsis/node-activedirectory-foysal.git"
   },
   "scripts": {
     "test": "istanbul cover --print none test/run.js | ./node_modules/.bin/faucet"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "activedirectory"
   ]
